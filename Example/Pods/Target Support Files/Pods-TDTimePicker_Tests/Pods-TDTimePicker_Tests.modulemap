@@ -1,0 +1,6 @@
+framework module Pods_TDTimePicker_Tests {
+  umbrella header "Pods-TDTimePicker_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

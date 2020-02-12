@@ -1,0 +1,1042 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D730D5DDE28B917BDB5E7B6F83C6C11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */; };
+		14094B6198169226B7872B978AD5207A /* TDTimePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9A9ED08B699823BA5AA47858A5492D /* TDTimePicker-dummy.m */; };
+		16B6CB23794D995D807EA10E7CEF065E /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = A4209C2D7929DC95F0AD404009CF3FE6 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		23A23B123A07C7339D63D0545945BD14 /* DatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = E2B1DA9936D5D2078BD568D956CC3298 /* DatePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24DEF3AF3296F229268D80B50E433240 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = FE05DAD5186CEC183AAD0BC4D2F6297C /* UIImage+Snapshot.m */; };
+		26D3EEFCFCA6DC9A4EB8EAD9703ECD98 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 290D40DB23B0E1E833EB7F996C615341 /* FBSnapshotTestCase.m */; };
+		27C294AFD2251BF21CAFA97EB53DEDE3 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B0390FC11C3671BEC209EA6F6AE8033 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C8E41D43E185E62965404EC1F236FA0 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FB5D637CA8F60B2B16F9375DFCA3FE /* FBSnapshotTestCase-dummy.m */; };
+		33CD52558D8E2F820100C8753AA2F32F /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499BB97C946EF5DFF46CB40D7D685EE1 /* SwiftSupport.swift */; };
+		37FF7072D8205C91456DD5A3792645B9 /* DatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5076A2B17700C25CC6580A22A0F28AEB /* DatePickerView.m */; };
+		567C69E04BF6A7D0758D61A15D6473DE /* Pods-TDTimePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 526B9A368505C0FFCD31DDE40C8CE5AA /* Pods-TDTimePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F01DF0FB5610799A00AC976F981EB18 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 912F5BE09296F333F87046761D662D18 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		700E8CE0FDD79F21D428FC3D54D36C0E /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = D7B529483604801ABB9AB87D9F1FFAD9 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7E6E7BD910E2FA446CEBB40A9EDC1A9A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E598EA85FAF39ACA9B89D6177D1A61A /* XCTest.framework */; };
+		83090DBD223AD2BAB751C8757C51A2C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */; };
+		832DC61A7CA632444CD6DA46EF6491FC /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F562A950BC3B0D9DB87C857D478D7 /* FBSnapshotTestController.m */; };
+		88A7C51050A0C9F79A7E94739E77A30A /* Pods-TDTimePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FE871F5B402E9CAFD83D13A9E77B02 /* Pods-TDTimePicker_Example-dummy.m */; };
+		8C8CBE0160D700133D554C5EE0DA00CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */; };
+		8E08BAF7E7CF8950BF8E17F6620BD6EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6942863E4F9C7B25B068D635E73BFD3 /* QuartzCore.framework */; };
+		9F42E5F29468EECFE75D856225E23CE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */; };
+		AA90D38B952D894F9EA242FC97504ED2 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE4EA1756325767F72616D3CD687833 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAC4D80E2841DE55D2266A4B67863EC8 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB23A7A321BFD09B0985E94534A5272 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDDC0E259DFD1A2FC88DFE11C536E471 /* Pods-TDTimePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0026EB293228CF776C0C2D8F352078 /* Pods-TDTimePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFA869102744DB995F3AC930E96E3AFF /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 93221711894899A0B45B4E35F4B54984 /* UIApplication+StrictKeyWindow.m */; };
+		D428498A1A70F3DB2F9D9C921989E6B8 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 265DC60F5871575FF908A7C1AF91A133 /* UIImage+Compare.m */; };
+		D5B69D24B3CBE07CAE730A23FF457F6F /* Pods-TDTimePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A2531FFA70505EDF70F7E4A42AD77DF5 /* Pods-TDTimePicker_Tests-dummy.m */; };
+		D6B1B0AC7F376A0FC6DADEEAA737E508 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = C095B69FB8375794D8236558C70DAAE0 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DBADABF56FC0675DEE45B90CE6AFA4E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5E9FF730C28FC315DD1249D72A070C /* UIKit.framework */; };
+		E3B86D234BC43FB8877126BFDD760867 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B89C323C789A72335F3693734707F15 /* FBSnapshotTestCasePlatform.m */; };
+		E7F0B09F899DBFE173736F8AE258ED48 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 2015821C6F52E13E032E0E4B9D53AFE7 /* UIImage+Diff.m */; };
+		F55F8C382EED22A01F777CC2D5A75797 /* TDTimePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D44BC6F90BE04747A5745C2D845641E /* TDTimePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8DF0374879AD9CA64E209F5E1A423B4 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A648BA81C182E1424B9B336EA8F50B1 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02A9DBE7B5760673F335311DDF662F5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D3ACFDE390FE76465A1132EC9A7DF15;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		3F25AFFBD533D9DD8207DA32776FE356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95C8A97D7DA43C69A140B7566D338C81;
+			remoteInfo = TDTimePicker;
+		};
+		B625068ED4F42DB007A39D69F54A7126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100673D80D91FEB7BA56923D16BAF19E;
+			remoteInfo = "Pods-TDTimePicker_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0520BD23B450DB3B1EBF6FC779B26E18 /* TDTimePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TDTimePicker.framework; path = TDTimePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05734EA760D464EE6F6CB085C52CB063 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		180978ED312FDD1B25EE1B1399862477 /* Pods-TDTimePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDTimePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B89C323C789A72335F3693734707F15 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		1CD8054E02E2E76F2C65EFD83279261D /* Pods-TDTimePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDTimePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2015821C6F52E13E032E0E4B9D53AFE7 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		2344818D43850F6C088EBC646CE799B5 /* Pods-TDTimePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDTimePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		265DC60F5871575FF908A7C1AF91A133 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		290D40DB23B0E1E833EB7F996C615341 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		2948F22B17DF600EC6BBA8554077EFDD /* Pods-TDTimePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDTimePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2B0390FC11C3671BEC209EA6F6AE8033 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		39E99B384BAB745113A55FDEAED6B83C /* Pods-TDTimePicker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDTimePicker_Tests-Info.plist"; sourceTree = "<group>"; };
+		3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E0026EB293228CF776C0C2D8F352078 /* Pods-TDTimePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TDTimePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		470F7DC7C0CD3E688D445BDA5D5962EF /* Pods-TDTimePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TDTimePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		476F3D306A453FF3ADD0A25A0BD82864 /* Pods-TDTimePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDTimePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		499BB97C946EF5DFF46CB40D7D685EE1 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		4FB23A7A321BFD09B0985E94534A5272 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		5076A2B17700C25CC6580A22A0F28AEB /* DatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DatePickerView.m; path = TDTimePicker/Classes/DatePickerView.m; sourceTree = "<group>"; };
+		526B9A368505C0FFCD31DDE40C8CE5AA /* Pods-TDTimePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TDTimePicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		56641E2621DBEB6E9E4B36FE331E36E2 /* TDTimePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TDTimePicker.xcconfig; sourceTree = "<group>"; };
+		567986A1F744B77B6C063751DFC923A6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5F18FCEAF60230C06A73E9B32591DF3D /* TDTimePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TDTimePicker.modulemap; sourceTree = "<group>"; };
+		7B806C5B22103FCAF578EF702CE08198 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E598EA85FAF39ACA9B89D6177D1A61A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7F9B58ACD036963F617091AC21F78112 /* Pods_TDTimePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TDTimePicker_Tests.framework; path = "Pods-TDTimePicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841F562A950BC3B0D9DB87C857D478D7 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		8D44BC6F90BE04747A5745C2D845641E /* TDTimePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDTimePicker-umbrella.h"; sourceTree = "<group>"; };
+		912F5BE09296F333F87046761D662D18 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		93221711894899A0B45B4E35F4B54984 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		9A648BA81C182E1424B9B336EA8F50B1 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		9AB1DA8AD9DEF3982C6E8BB64FAA8418 /* Pods-TDTimePicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDTimePicker_Example-Info.plist"; sourceTree = "<group>"; };
+		9BC61A93BCC1D8898D8FCC8E46384D27 /* Pods-TDTimePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDTimePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1DB66BABDE59E5B326284AAD222B6B9 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
+		A22ADE5D4FE9EB0C8583EAED17BFB574 /* Pods-TDTimePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TDTimePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A2531FFA70505EDF70F7E4A42AD77DF5 /* Pods-TDTimePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDTimePicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		A4209C2D7929DC95F0AD404009CF3FE6 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		A9A0CE6197E35BD853D77C4B64B9EE74 /* Pods-TDTimePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TDTimePicker_Tests.modulemap"; sourceTree = "<group>"; };
+		B611EAB7F7AC5135D6E65CAF0C2688BA /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		BB22DFB0327BD2BEEBC8A18556232CE5 /* TDTimePicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TDTimePicker-Info.plist"; sourceTree = "<group>"; };
+		BEEFC457946B37F716A09EC463267C72 /* Pods-TDTimePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TDTimePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C095B69FB8375794D8236558C70DAAE0 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		C3FB5D637CA8F60B2B16F9375DFCA3FE /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		CBE4EA1756325767F72616D3CD687833 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		CC5E9FF730C28FC315DD1249D72A070C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D4FE871F5B402E9CAFD83D13A9E77B02 /* Pods-TDTimePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TDTimePicker_Example-dummy.m"; sourceTree = "<group>"; };
+		D61007845D9B23AC5431AACF01304F2E /* Pods-TDTimePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TDTimePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7B529483604801ABB9AB87D9F1FFAD9 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		DC08CE54D5E792E4FA1FF90A07076C95 /* TDTimePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TDTimePicker-prefix.pch"; sourceTree = "<group>"; };
+		DFA006B12948896A8199B6D5E4B26187 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E2B1DA9936D5D2078BD568D956CC3298 /* DatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DatePickerView.h; path = TDTimePicker/Classes/DatePickerView.h; sourceTree = "<group>"; };
+		E38CEEB679E2E994BFE2836B1EAFCCFB /* Pods-TDTimePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TDTimePicker_Example.modulemap"; sourceTree = "<group>"; };
+		E68204D7F7F28458A1ABE9EF3DD02081 /* Pods_TDTimePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TDTimePicker_Example.framework; path = "Pods-TDTimePicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6942863E4F9C7B25B068D635E73BFD3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		EEAA84FFBFD9DE481079B66ACB1612E6 /* TDTimePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TDTimePicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EF5C7C8B1F553296C78495F0D00AFF06 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		FA9A9ED08B699823BA5AA47858A5492D /* TDTimePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TDTimePicker-dummy.m"; sourceTree = "<group>"; };
+		FE05DAD5186CEC183AAD0BC4D2F6297C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36CA7F93209A9B8D01FAA98984016908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D730D5DDE28B917BDB5E7B6F83C6C11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		650D31746E361F29F3DB85992DB6F24E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83090DBD223AD2BAB751C8757C51A2C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		927FE7C162AC0C9B92452EC961D030A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8CBE0160D700133D554C5EE0DA00CF /* Foundation.framework in Frameworks */,
+				8E08BAF7E7CF8950BF8E17F6620BD6EC /* QuartzCore.framework in Frameworks */,
+				DBADABF56FC0675DEE45B90CE6AFA4E7 /* UIKit.framework in Frameworks */,
+				7E6E7BD910E2FA446CEBB40A9EDC1A9A /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFEF4040883F9A8CF514581BD6B7FEDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F42E5F29468EECFE75D856225E23CE4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16B8D657ED78864429DA904F420CBF27 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF5C7C8B1F553296C78495F0D00AFF06 /* FBSnapshotTestCase.modulemap */,
+				A1DB66BABDE59E5B326284AAD222B6B9 /* FBSnapshotTestCase.xcconfig */,
+				C3FB5D637CA8F60B2B16F9375DFCA3FE /* FBSnapshotTestCase-dummy.m */,
+				05734EA760D464EE6F6CB085C52CB063 /* FBSnapshotTestCase-Info.plist */,
+				B611EAB7F7AC5135D6E65CAF0C2688BA /* FBSnapshotTestCase-prefix.pch */,
+				CBE4EA1756325767F72616D3CD687833 /* FBSnapshotTestCase-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		1EBD46818714F8BE58753F7F9B38D221 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3C97720D07754B8F519F93D7CA5AD48B /* Foundation.framework */,
+				E6942863E4F9C7B25B068D635E73BFD3 /* QuartzCore.framework */,
+				CC5E9FF730C28FC315DD1249D72A070C /* UIKit.framework */,
+				7E598EA85FAF39ACA9B89D6177D1A61A /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2C766D0DCCE3C52B053C74280FE99C08 /* Pods-TDTimePicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A9A0CE6197E35BD853D77C4B64B9EE74 /* Pods-TDTimePicker_Tests.modulemap */,
+				A22ADE5D4FE9EB0C8583EAED17BFB574 /* Pods-TDTimePicker_Tests-acknowledgements.markdown */,
+				D61007845D9B23AC5431AACF01304F2E /* Pods-TDTimePicker_Tests-acknowledgements.plist */,
+				A2531FFA70505EDF70F7E4A42AD77DF5 /* Pods-TDTimePicker_Tests-dummy.m */,
+				470F7DC7C0CD3E688D445BDA5D5962EF /* Pods-TDTimePicker_Tests-frameworks.sh */,
+				39E99B384BAB745113A55FDEAED6B83C /* Pods-TDTimePicker_Tests-Info.plist */,
+				3E0026EB293228CF776C0C2D8F352078 /* Pods-TDTimePicker_Tests-umbrella.h */,
+				9BC61A93BCC1D8898D8FCC8E46384D27 /* Pods-TDTimePicker_Tests.debug.xcconfig */,
+				476F3D306A453FF3ADD0A25A0BD82864 /* Pods-TDTimePicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-TDTimePicker_Tests";
+			path = "Target Support Files/Pods-TDTimePicker_Tests";
+			sourceTree = "<group>";
+		};
+		31214CF30AD1249E16ADFD0923DD4FD4 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				499BB97C946EF5DFF46CB40D7D685EE1 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		757FD6F3AAE1CF8A368EA27C0B6F1DE0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB2280FEB12D33F37CE7B638B3B57325 /* TDTimePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		785E0DC9434FDF66051A71B8E676A82B /* Pods-TDTimePicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E38CEEB679E2E994BFE2836B1EAFCCFB /* Pods-TDTimePicker_Example.modulemap */,
+				1CD8054E02E2E76F2C65EFD83279261D /* Pods-TDTimePicker_Example-acknowledgements.markdown */,
+				180978ED312FDD1B25EE1B1399862477 /* Pods-TDTimePicker_Example-acknowledgements.plist */,
+				D4FE871F5B402E9CAFD83D13A9E77B02 /* Pods-TDTimePicker_Example-dummy.m */,
+				2344818D43850F6C088EBC646CE799B5 /* Pods-TDTimePicker_Example-frameworks.sh */,
+				9AB1DA8AD9DEF3982C6E8BB64FAA8418 /* Pods-TDTimePicker_Example-Info.plist */,
+				526B9A368505C0FFCD31DDE40C8CE5AA /* Pods-TDTimePicker_Example-umbrella.h */,
+				2948F22B17DF600EC6BBA8554077EFDD /* Pods-TDTimePicker_Example.debug.xcconfig */,
+				BEEFC457946B37F716A09EC463267C72 /* Pods-TDTimePicker_Example.release.xcconfig */,
+			);
+			name = "Pods-TDTimePicker_Example";
+			path = "Target Support Files/Pods-TDTimePicker_Example";
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EBD46818714F8BE58753F7F9B38D221 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				757FD6F3AAE1CF8A368EA27C0B6F1DE0 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				E81A37DBDE41E671312C56736544E2FA /* Pods */,
+				FECAF52B9F64C44CBFDFD84617465043 /* Products */,
+				F634639954DC78420A58510C2C8CCF09 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0D0EBA57CF02EC35B68504A11C45A7A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				567986A1F744B77B6C063751DFC923A6 /* LICENSE */,
+				DFA006B12948896A8199B6D5E4B26187 /* README.md */,
+				EEAA84FFBFD9DE481079B66ACB1612E6 /* TDTimePicker.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D2120C1FCA13B157B7B296C8361068FD /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				DE396F8CBAADE75BB26EFDB38317C298 /* Core */,
+				16B8D657ED78864429DA904F420CBF27 /* Support Files */,
+				31214CF30AD1249E16ADFD0923DD4FD4 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		DB2280FEB12D33F37CE7B638B3B57325 /* TDTimePicker */ = {
+			isa = PBXGroup;
+			children = (
+				E2B1DA9936D5D2078BD568D956CC3298 /* DatePickerView.h */,
+				5076A2B17700C25CC6580A22A0F28AEB /* DatePickerView.m */,
+				D0D0EBA57CF02EC35B68504A11C45A7A /* Pod */,
+				E4A5427F244394E47406FBA2490AC54E /* Support Files */,
+			);
+			name = TDTimePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DE396F8CBAADE75BB26EFDB38317C298 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				9A648BA81C182E1424B9B336EA8F50B1 /* FBSnapshotTestCase.h */,
+				290D40DB23B0E1E833EB7F996C615341 /* FBSnapshotTestCase.m */,
+				4FB23A7A321BFD09B0985E94534A5272 /* FBSnapshotTestCasePlatform.h */,
+				1B89C323C789A72335F3693734707F15 /* FBSnapshotTestCasePlatform.m */,
+				2B0390FC11C3671BEC209EA6F6AE8033 /* FBSnapshotTestController.h */,
+				841F562A950BC3B0D9DB87C857D478D7 /* FBSnapshotTestController.m */,
+				912F5BE09296F333F87046761D662D18 /* UIApplication+StrictKeyWindow.h */,
+				93221711894899A0B45B4E35F4B54984 /* UIApplication+StrictKeyWindow.m */,
+				C095B69FB8375794D8236558C70DAAE0 /* UIImage+Compare.h */,
+				265DC60F5871575FF908A7C1AF91A133 /* UIImage+Compare.m */,
+				A4209C2D7929DC95F0AD404009CF3FE6 /* UIImage+Diff.h */,
+				2015821C6F52E13E032E0E4B9D53AFE7 /* UIImage+Diff.m */,
+				D7B529483604801ABB9AB87D9F1FFAD9 /* UIImage+Snapshot.h */,
+				FE05DAD5186CEC183AAD0BC4D2F6297C /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		E4A5427F244394E47406FBA2490AC54E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F18FCEAF60230C06A73E9B32591DF3D /* TDTimePicker.modulemap */,
+				56641E2621DBEB6E9E4B36FE331E36E2 /* TDTimePicker.xcconfig */,
+				FA9A9ED08B699823BA5AA47858A5492D /* TDTimePicker-dummy.m */,
+				BB22DFB0327BD2BEEBC8A18556232CE5 /* TDTimePicker-Info.plist */,
+				DC08CE54D5E792E4FA1FF90A07076C95 /* TDTimePicker-prefix.pch */,
+				8D44BC6F90BE04747A5745C2D845641E /* TDTimePicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TDTimePicker";
+			sourceTree = "<group>";
+		};
+		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2120C1FCA13B157B7B296C8361068FD /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F634639954DC78420A58510C2C8CCF09 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				785E0DC9434FDF66051A71B8E676A82B /* Pods-TDTimePicker_Example */,
+				2C766D0DCCE3C52B053C74280FE99C08 /* Pods-TDTimePicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FECAF52B9F64C44CBFDFD84617465043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B806C5B22103FCAF578EF702CE08198 /* FBSnapshotTestCase.framework */,
+				E68204D7F7F28458A1ABE9EF3DD02081 /* Pods_TDTimePicker_Example.framework */,
+				7F9B58ACD036963F617091AC21F78112 /* Pods_TDTimePicker_Tests.framework */,
+				0520BD23B450DB3B1EBF6FC779B26E18 /* TDTimePicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1CE4285A5A2A145039F1AC70976A1510 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23A23B123A07C7339D63D0545945BD14 /* DatePickerView.h in Headers */,
+				F55F8C382EED22A01F777CC2D5A75797 /* TDTimePicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		269D28736EB8D3E88E98B0B8CD8EB61C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDC0E259DFD1A2FC88DFE11C536E471 /* Pods-TDTimePicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B24C24575F0933EF1151CD5EC8BDA950 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567C69E04BF6A7D0758D61A15D6473DE /* Pods-TDTimePicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB0E5860EF8BEC402369B4198B36E033 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA90D38B952D894F9EA242FC97504ED2 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				F8DF0374879AD9CA64E209F5E1A423B4 /* FBSnapshotTestCase.h in Headers */,
+				AAC4D80E2841DE55D2266A4B67863EC8 /* FBSnapshotTestCasePlatform.h in Headers */,
+				27C294AFD2251BF21CAFA97EB53DEDE3 /* FBSnapshotTestController.h in Headers */,
+				6F01DF0FB5610799A00AC976F981EB18 /* UIApplication+StrictKeyWindow.h in Headers */,
+				D6B1B0AC7F376A0FC6DADEEAA737E508 /* UIImage+Compare.h in Headers */,
+				16B6CB23794D995D807EA10E7CEF065E /* UIImage+Diff.h in Headers */,
+				700E8CE0FDD79F21D428FC3D54D36C0E /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		100673D80D91FEB7BA56923D16BAF19E /* Pods-TDTimePicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 066CDC3835F1B4C6DC265CC2E6632C28 /* Build configuration list for PBXNativeTarget "Pods-TDTimePicker_Example" */;
+			buildPhases = (
+				B24C24575F0933EF1151CD5EC8BDA950 /* Headers */,
+				D7FF65C9EEBA3090C01121FA5D0522C1 /* Sources */,
+				650D31746E361F29F3DB85992DB6F24E /* Frameworks */,
+				B7312F65C6C80C42551566B9C4F54639 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05F8982238892D96A571B0EC0FEF8C56 /* PBXTargetDependency */,
+			);
+			name = "Pods-TDTimePicker_Example";
+			productName = "Pods-TDTimePicker_Example";
+			productReference = E68204D7F7F28458A1ABE9EF3DD02081 /* Pods_TDTimePicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55EDAD64213FA60FD3907A3BB927A9F0 /* Pods-TDTimePicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7969135842A29257C3D72306A4F06D /* Build configuration list for PBXNativeTarget "Pods-TDTimePicker_Tests" */;
+			buildPhases = (
+				269D28736EB8D3E88E98B0B8CD8EB61C /* Headers */,
+				497792B5856B7CFDA837FD17F2497E34 /* Sources */,
+				36CA7F93209A9B8D01FAA98984016908 /* Frameworks */,
+				CF222324A3D3D1E31A3EFEBBEDC527CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C8C0553FBC9505F9BA13A8D9342CA74 /* PBXTargetDependency */,
+				14D48F2B2A1FEB11AAE738D2054F78B6 /* PBXTargetDependency */,
+			);
+			name = "Pods-TDTimePicker_Tests";
+			productName = "Pods-TDTimePicker_Tests";
+			productReference = 7F9B58ACD036963F617091AC21F78112 /* Pods_TDTimePicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D3ACFDE390FE76465A1132EC9A7DF15 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03D68F182B52805E401158BD5F41DB73 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				DB0E5860EF8BEC402369B4198B36E033 /* Headers */,
+				2CD5F61591AA8042F095AF1CA65FB559 /* Sources */,
+				927FE7C162AC0C9B92452EC961D030A9 /* Frameworks */,
+				F60B73BD76BA6D49ADA1A7618A78389F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 7B806C5B22103FCAF578EF702CE08198 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95C8A97D7DA43C69A140B7566D338C81 /* TDTimePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A5742D286D999FADF506CB68D1E52C /* Build configuration list for PBXNativeTarget "TDTimePicker" */;
+			buildPhases = (
+				1CE4285A5A2A145039F1AC70976A1510 /* Headers */,
+				D58B00A095F5EDC1E21403BE013D8EF1 /* Sources */,
+				BFEF4040883F9A8CF514581BD6B7FEDB /* Frameworks */,
+				DC81453AFE4E2FCDD65B32E6985B26BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDTimePicker;
+			productName = TDTimePicker;
+			productReference = 0520BD23B450DB3B1EBF6FC779B26E18 /* TDTimePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FECAF52B9F64C44CBFDFD84617465043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D3ACFDE390FE76465A1132EC9A7DF15 /* FBSnapshotTestCase */,
+				100673D80D91FEB7BA56923D16BAF19E /* Pods-TDTimePicker_Example */,
+				55EDAD64213FA60FD3907A3BB927A9F0 /* Pods-TDTimePicker_Tests */,
+				95C8A97D7DA43C69A140B7566D338C81 /* TDTimePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7312F65C6C80C42551566B9C4F54639 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF222324A3D3D1E31A3EFEBBEDC527CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC81453AFE4E2FCDD65B32E6985B26BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60B73BD76BA6D49ADA1A7618A78389F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD5F61591AA8042F095AF1CA65FB559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8E41D43E185E62965404EC1F236FA0 /* FBSnapshotTestCase-dummy.m in Sources */,
+				26D3EEFCFCA6DC9A4EB8EAD9703ECD98 /* FBSnapshotTestCase.m in Sources */,
+				E3B86D234BC43FB8877126BFDD760867 /* FBSnapshotTestCasePlatform.m in Sources */,
+				832DC61A7CA632444CD6DA46EF6491FC /* FBSnapshotTestController.m in Sources */,
+				33CD52558D8E2F820100C8753AA2F32F /* SwiftSupport.swift in Sources */,
+				CFA869102744DB995F3AC930E96E3AFF /* UIApplication+StrictKeyWindow.m in Sources */,
+				D428498A1A70F3DB2F9D9C921989E6B8 /* UIImage+Compare.m in Sources */,
+				E7F0B09F899DBFE173736F8AE258ED48 /* UIImage+Diff.m in Sources */,
+				24DEF3AF3296F229268D80B50E433240 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		497792B5856B7CFDA837FD17F2497E34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B69D24B3CBE07CAE730A23FF457F6F /* Pods-TDTimePicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58B00A095F5EDC1E21403BE013D8EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FF7072D8205C91456DD5A3792645B9 /* DatePickerView.m in Sources */,
+				14094B6198169226B7872B978AD5207A /* TDTimePicker-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7FF65C9EEBA3090C01121FA5D0522C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88A7C51050A0C9F79A7E94739E77A30A /* Pods-TDTimePicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05F8982238892D96A571B0EC0FEF8C56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TDTimePicker;
+			target = 95C8A97D7DA43C69A140B7566D338C81 /* TDTimePicker */;
+			targetProxy = 3F25AFFBD533D9DD8207DA32776FE356 /* PBXContainerItemProxy */;
+		};
+		14D48F2B2A1FEB11AAE738D2054F78B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TDTimePicker_Example";
+			target = 100673D80D91FEB7BA56923D16BAF19E /* Pods-TDTimePicker_Example */;
+			targetProxy = B625068ED4F42DB007A39D69F54A7126 /* PBXContainerItemProxy */;
+		};
+		4C8C0553FBC9505F9BA13A8D9342CA74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 6D3ACFDE390FE76465A1132EC9A7DF15 /* FBSnapshotTestCase */;
+			targetProxy = 02A9DBE7B5760673F335311DDF662F5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03B5C1A44C5A7738F0E7DFF2E9BF6539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2948F22B17DF600EC6BBA8554077EFDD /* Pods-TDTimePicker_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TDTimePicker_Example/Pods-TDTimePicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TDTimePicker_Example/Pods-TDTimePicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		48A7119EE9785A29A806611FFA88FB9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BC61A93BCC1D8898D8FCC8E46384D27 /* Pods-TDTimePicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TDTimePicker_Tests/Pods-TDTimePicker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TDTimePicker_Tests/Pods-TDTimePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D40BF9492BF08603C526AB8409C8495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56641E2621DBEB6E9E4B36FE331E36E2 /* TDTimePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TDTimePicker/TDTimePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TDTimePicker/TDTimePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TDTimePicker/TDTimePicker.modulemap";
+				PRODUCT_MODULE_NAME = TDTimePicker;
+				PRODUCT_NAME = TDTimePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		539B68D49FA1B4A7190B4EAB8E3D5C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476F3D306A453FF3ADD0A25A0BD82864 /* Pods-TDTimePicker_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TDTimePicker_Tests/Pods-TDTimePicker_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TDTimePicker_Tests/Pods-TDTimePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75171DDA2A9C5ACCED8FE5E01839D86A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEEFC457946B37F716A09EC463267C72 /* Pods-TDTimePicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TDTimePicker_Example/Pods-TDTimePicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TDTimePicker_Example/Pods-TDTimePicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8A06F44A6D8D0783257F796C6897DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56641E2621DBEB6E9E4B36FE331E36E2 /* TDTimePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TDTimePicker/TDTimePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TDTimePicker/TDTimePicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TDTimePicker/TDTimePicker.modulemap";
+				PRODUCT_MODULE_NAME = TDTimePicker;
+				PRODUCT_NAME = TDTimePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD17690F4E3C05962484D2F4E1A72109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1DB66BABDE59E5B326284AAD222B6B9 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D6B15E334B8286870039058880D02E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1DB66BABDE59E5B326284AAD222B6B9 /* FBSnapshotTestCase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03D68F182B52805E401158BD5F41DB73 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6B15E334B8286870039058880D02E80 /* Debug */,
+				AD17690F4E3C05962484D2F4E1A72109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		066CDC3835F1B4C6DC265CC2E6632C28 /* Build configuration list for PBXNativeTarget "Pods-TDTimePicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03B5C1A44C5A7738F0E7DFF2E9BF6539 /* Debug */,
+				75171DDA2A9C5ACCED8FE5E01839D86A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7969135842A29257C3D72306A4F06D /* Build configuration list for PBXNativeTarget "Pods-TDTimePicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48A7119EE9785A29A806611FFA88FB9E /* Debug */,
+				539B68D49FA1B4A7190B4EAB8E3D5C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A5742D286D999FADF506CB68D1E52C /* Build configuration list for PBXNativeTarget "TDTimePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D40BF9492BF08603C526AB8409C8495 /* Debug */,
+				A8A06F44A6D8D0783257F796C6897DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

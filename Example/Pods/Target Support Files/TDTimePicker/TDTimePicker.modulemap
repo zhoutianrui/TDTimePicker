@@ -1,0 +1,6 @@
+framework module TDTimePicker {
+  umbrella header "TDTimePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
